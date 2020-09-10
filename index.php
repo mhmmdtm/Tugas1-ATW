@@ -1,37 +1,21 @@
  <?php
 
- include "Animal.php";
+ echo "Animal <br>";
 
- $mueza = new Kucing;
- $mueza->jumlah_kaki = 4;
- echo "Mueza adalah kucing <br>";
- echo $mueza->jumlah_kaki."<br>";
- echo $mueza->bisa_terbang."<br>";
- $mueza->bersuara()."<br>";
+class Kucing{
+ 	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
 
+ }
+
+ $Kucing = new Kucing;
+ $Kucing->nama = "Mueza";
+ $Kucing->jumlah_kaki = "4";
+ $Kucing->bisa_terbang = "tidak bisa terbang";
+ $Kucing->suara = "meoong";
+
+ echo "Kucing <br>";
+ echo "Nama : $Kucing->nama <br>";
+ echo "Jumlah Kaki : $Kucing->jumlah_kaki <br>";
+ echo "Bisa Terbang : $Kucing->bisa_terbang <br>";
+ echo "Suara : $Kucing->suara <br>";
  echo "<hr>";
-
- $diggie = new Anjing;
- $diggie->jumlah_kaki = 4;
- echo "Diggie adalah kucing <br>";
- echo $diggie->jumlah_kaki."<br>";
- echo $diggie->bisa_terbang."<br>";
- $diggie->bersuara()."<br>";
-
- echo "<hr>";
-
- $jhon = new Elang;
- $jhon->jumlah_kaki = 2;
- echo "Jhon adalah kucing <br>";
- echo $jhon->jumlah_kaki."<br>";
- echo $Jhon->bisa_terbang."<br>";
- $jhon->bersuara()."<br>";
-
- echo "<hr>";
-
- $buggie = new Kelinci;
- $buggie->jumlah_kaki = 4;
- echo "Buggie adalah kucing <br>";
- echo $buggie->jumlah_kaki."<br>";
- echo $buggie->bisa_terbang."<br>";
- $buggie->bersuara()."<br>";
