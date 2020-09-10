@@ -5,9 +5,7 @@ echo "<hr>";
 
 class Kucing{
  	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
-
  }
-
  $Kucing = new Kucing;
  $Kucing->nama = "Mueza";
  $Kucing->jumlah_kaki = "4";
@@ -23,9 +21,7 @@ class Kucing{
 
 class Anjing{
  	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
-
  }
-
  $Anjing = new Anjing;
  $Anjing->nama = "Diggie";
  $Anjing->jumlah_kaki = "4";
@@ -39,3 +35,18 @@ class Anjing{
  echo "Suara : $Anjing->suara <br>";
  echo "<hr>";
 
+class Elang{
+ 	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+ }
+ $Elang = new Elang;
+ $Elang->nama = "Jhon";
+ $Elang->jumlah_kaki = "2";
+ $Elang->bisa_terbang = "ya";
+ $Elang->suara = "miip";
+
+ echo "Elang <br>";
+ echo "Nama : $Elang->nama <br>";
+ echo "Jumlah Kaki : $Elang->jumlah_kaki <br>";
+ echo "Bisa Terbang : $Elang->bisa_terbang <br>";
+ echo "Suara : $Elang->suara <br>";
+ echo "<hr>";
